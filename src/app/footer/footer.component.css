@@ -1,0 +1,20 @@
+.footerback {
+    background-color: var(--primary-color);
+    width: 100%;
+    bottom: 0;
+}
+
+.d-flex {
+    align-items: normal;
+}
+
+.footer {
+    color: white;
+    padding: 15px 0;
+    background-color: #1A252F;
+}
+
+i:hover {
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color)!important;
+}

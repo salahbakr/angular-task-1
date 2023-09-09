@@ -1,0 +1,29 @@
+.container {
+    margin-top: 20px;
+}
+
+.line {
+    background-color: var(--primary-color);
+}
+
+input.form-control:focus {
+    box-shadow: none;
+}
+
+label {
+    color: var(--secondary-color);
+    margin-bottom: 7px;
+    transition: .6s top;
+}
+
+.goTop {
+    top: 40px !important;
+}
+
+.btn{
+    background: var(--secondary-color);
+}
+
+.btn:focus {
+    background: var(--secondary-color);
+}

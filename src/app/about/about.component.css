@@ -1,0 +1,26 @@
+.about {
+    background-color: var(--secondary-color);
+    padding-bottom: 50px;
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutComponent {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.freelancer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.freelancer p {
+    width: 43%;
+}

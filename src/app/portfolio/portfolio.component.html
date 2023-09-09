@@ -1,0 +1,21 @@
+<div class="portfolio">
+      <div class="text-center">
+        <h1 class="portfolioComponent text-uppercase">portfolio component</h1>
+        <div class="d-flex align-items-center justify-content-center col-12 mb-3">
+          <div class="line me-3"></div>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <div class="line ms-3"></div>
+        </div>
+        <div class="imgContainer">
+          <div class="img position-relative" *ngFor="let imgSrc of srcs">
+            <img [src]="imgSrc" alt="">
+            <div class="icons position-absolute d-flex justify-content-center align-items-center" (click)="isDisplayed = false; img = imgSrc">
+              <i class="fa-solid fa-plus fa-5x"></i>
+            </div>
+          </div>
+        </div>
+        <div (click)="isDisplayed = true" [class.d-none]="isDisplayed" class="displayImg position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center">
+          <img [src]="img" alt="" width="600px" height="450px" style="border-radius:15px;">
+        </div>
+      </div>
+</div>

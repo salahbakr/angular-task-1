@@ -1,0 +1,20 @@
+nav {
+    background-color: var(--primary-color)!important;
+    color: white;
+    transition: 0.6s;
+    width: 100%;
+}
+
+ul li{
+    margin-right:30px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.active {
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    transition: 0.5s;
+}
